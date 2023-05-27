@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C05F83022A22725300A17E05 /* CobaWatchOs Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C05F83012A22725300A17E05 /* CobaWatchOs Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C05F83022A22725300A17E05 /* Roll the Dice Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C05F83012A22725300A17E05 /* Roll the Dice Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C05F83072A22725300A17E05 /* CobaWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05F83062A22725300A17E05 /* CobaWatchOsApp.swift */; };
 		C05F83092A22725300A17E05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05F83082A22725300A17E05 /* ContentView.swift */; };
 		C05F830B2A22725400A17E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05F830A2A22725400A17E05 /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C05F83022A22725300A17E05 /* CobaWatchOs Watch App.app in Embed Watch Content */,
+				C05F83022A22725300A17E05 /* Roll the Dice Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,8 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C05F82FB2A22725300A17E05 /* CobaWatchOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobaWatchOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C05F83012A22725300A17E05 /* CobaWatchOs Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CobaWatchOs Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05F82FB2A22725300A17E05 /* Roll the Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll the Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05F83012A22725300A17E05 /* Roll the Dice Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll the Dice Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05F83062A22725300A17E05 /* CobaWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaWatchOsApp.swift; sourceTree = "<group>"; };
 		C05F83082A22725300A17E05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C05F830A2A22725400A17E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		C05F82FC2A22725300A17E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C05F82FB2A22725300A17E05 /* CobaWatchOs.app */,
-				C05F83012A22725300A17E05 /* CobaWatchOs Watch App.app */,
+				C05F82FB2A22725300A17E05 /* Roll the Dice.app */,
+				C05F83012A22725300A17E05 /* Roll the Dice Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C05F82FA2A22725300A17E05 /* CobaWatchOs */ = {
+		C05F82FA2A22725300A17E05 /* Roll the Dice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05F83152A22725400A17E05 /* Build configuration list for PBXNativeTarget "CobaWatchOs" */;
+			buildConfigurationList = C05F83152A22725400A17E05 /* Build configuration list for PBXNativeTarget "Roll the Dice" */;
 			buildPhases = (
 				C05F82F92A22725300A17E05 /* Resources */,
 				C05F83142A22725400A17E05 /* Embed Watch Content */,
@@ -109,14 +109,14 @@
 			dependencies = (
 				C05F83042A22725300A17E05 /* PBXTargetDependency */,
 			);
-			name = CobaWatchOs;
+			name = "Roll the Dice";
 			productName = CobaWatchOs;
-			productReference = C05F82FB2A22725300A17E05 /* CobaWatchOs.app */;
+			productReference = C05F82FB2A22725300A17E05 /* Roll the Dice.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		C05F83002A22725300A17E05 /* CobaWatchOs Watch App */ = {
+		C05F83002A22725300A17E05 /* Roll the Dice Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05F83112A22725400A17E05 /* Build configuration list for PBXNativeTarget "CobaWatchOs Watch App" */;
+			buildConfigurationList = C05F83112A22725400A17E05 /* Build configuration list for PBXNativeTarget "Roll the Dice Watch App" */;
 			buildPhases = (
 				C05F82FD2A22725300A17E05 /* Sources */,
 				C05F82FE2A22725300A17E05 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "CobaWatchOs Watch App";
+			name = "Roll the Dice Watch App";
 			productName = "CobaWatchOs Watch App";
-			productReference = C05F83012A22725300A17E05 /* CobaWatchOs Watch App.app */;
+			productReference = C05F83012A22725300A17E05 /* Roll the Dice Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C05F82F82A22725300A17E05 /* Build configuration list for PBXProject "CobaWatchOs" */;
+			buildConfigurationList = C05F82F82A22725300A17E05 /* Build configuration list for PBXProject "Roll the Dice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,8 +162,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C05F82FA2A22725300A17E05 /* CobaWatchOs */,
-				C05F83002A22725300A17E05 /* CobaWatchOs Watch App */,
+				C05F82FA2A22725300A17E05 /* Roll the Dice */,
+				C05F83002A22725300A17E05 /* Roll the Dice Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +202,7 @@
 /* Begin PBXTargetDependency section */
 		C05F83042A22725300A17E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C05F83002A22725300A17E05 /* CobaWatchOs Watch App */;
+			target = C05F83002A22725300A17E05 /* Roll the Dice Watch App */;
 			targetProxy = C05F83032A22725300A17E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -325,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CobaWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AHLML969C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = CobaWatchOs;
@@ -354,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CobaWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AHLML969C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = CobaWatchOs;
@@ -382,6 +384,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHLML969C8;
 				INFOPLIST_KEY_CFBundleDisplayName = CobaWatchOs;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.davidmahbubi.testing-watch-os.CobaWatchOs";
@@ -397,6 +400,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHLML969C8;
 				INFOPLIST_KEY_CFBundleDisplayName = CobaWatchOs;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.davidmahbubi.testing-watch-os.CobaWatchOs";
@@ -410,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C05F82F82A22725300A17E05 /* Build configuration list for PBXProject "CobaWatchOs" */ = {
+		C05F82F82A22725300A17E05 /* Build configuration list for PBXProject "Roll the Dice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05F830F2A22725400A17E05 /* Debug */,
@@ -419,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05F83112A22725400A17E05 /* Build configuration list for PBXNativeTarget "CobaWatchOs Watch App" */ = {
+		C05F83112A22725400A17E05 /* Build configuration list for PBXNativeTarget "Roll the Dice Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05F83122A22725400A17E05 /* Debug */,
@@ -428,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05F83152A22725400A17E05 /* Build configuration list for PBXNativeTarget "CobaWatchOs" */ = {
+		C05F83152A22725400A17E05 /* Build configuration list for PBXNativeTarget "Roll the Dice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05F83162A22725400A17E05 /* Debug */,
