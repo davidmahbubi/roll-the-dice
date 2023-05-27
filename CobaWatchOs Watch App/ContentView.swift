@@ -16,6 +16,7 @@ struct ContentView: View {
     @State private var timer: Timer?
     @State private var selectedTab: UInt8 = 0
     @State private var rollingTime: UInt8 = 2
+    @State private var rollingSpeed: UInt16 = 1
     
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -42,8 +43,8 @@ struct ContentView: View {
                     }
                 }
                 Section(header: Text("Rolling Speed")) {
-                    Stepper(value: $rollingTime, in: 1...10) {
-                        Text("\(rollingTime) ms")
+                    Stepper(value: $rollingSpeed, in: 1...5) {
+                        Text("\(rollingSpeed * 50   ) ms")
                             .font(.system(size: 15))
                     }
                 }
@@ -55,7 +56,7 @@ struct ContentView: View {
     }
     
     func randomizeDice() {
-        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+        timer = Timer.scheduledTimer(withTimeInterval: CGFloat(Float(rollingSpeed) / Float(20)), repeats: true) { timer in
             number = UInt8(arc4random_uniform(6) + 1)
             imageName = "Dice \(number)"
         }
